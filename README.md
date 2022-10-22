@@ -57,3 +57,14 @@ The user Id was created in previous stage when the user was added.
       
 Click on 'update object'
 
+
+# Running the Authentication Server
+## Installations
+
+Download the project:
+git clone https://github.com/IsraelEfrati/Ldap-and-Google-Authenticator.git
+
+## Run the project
+python3 main.py
+
+
