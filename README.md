@@ -63,6 +63,13 @@ Click on 'update object'
 
 Download the project:
 git clone https://github.com/IsraelEfrati/Ldap-and-Google-Authenticator.git
+	
+## Configurations
+In the my_ldap.py file add the IP of your LDAP server to the following variable:
+``` 
+LDAP_IP = ""
+```
+
 
 ## Run the project
 python3 main.py
