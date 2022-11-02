@@ -9,7 +9,8 @@ Download the project:
 git clone https://github.com/IsraelEfrati/Ldap-and-Google-Authenticator.git
 
 ## Run the following:		
-```cd Ldap-and-Google-Authenticator
+```
+cd Ldap-and-Google-Authenticator
 sudo ./script.sh
 ```
 
