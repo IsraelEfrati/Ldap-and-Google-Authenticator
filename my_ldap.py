@@ -4,7 +4,7 @@ from ldap3 import Server, Connection, ALL, SUBTREE, SAFE_SYNC
 from ldap3.core.exceptions import LDAPException, LDAPBindError
 from pyotp import random_base32, totp
 
-LDAP_IP = ""
+LDAP_IP = "127.0.0.1"
 
 def get_secret():
     if os.path.exists("code.txt"):
