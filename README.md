@@ -5,15 +5,13 @@ Authenicate users with Ldap server and Google Authenticator
 # LDAP 
 ## Installations
 
-Run the following:
+Download the project:
+git clone https://github.com/IsraelEfrati/Ldap-and-Google-Authenticator.git
 
-mkdir LDAP              
-cd ./LDAP                                                       
-Git clone https://github.com/osixia/docker-openldap.git                         
-Git clone https://github.com/osixia/docker-phpLDAPadmin.git
-
-Download and run this script:
-https://github.com/IsraelEfrati/LDAP-Radius-2FA-Login-Client/blob/main/start_ldap_and_gui.sh
+## Run the following:		
+```cd Ldap-and-Google-Authenticator
+sudo ./script.sh
+```
 
 ## Adding new users
 In your browser go to:
@@ -56,16 +54,4 @@ The user Id was created in previous stage when the user was added.
 
       
 Click on 'update object'
-
-
-# Running the Authentication Server
-## Installations
-
-Download the project:
-git clone https://github.com/IsraelEfrati/Ldap-and-Google-Authenticator.git
-	
-
-## Run the project
-python3 main.py
-
 
