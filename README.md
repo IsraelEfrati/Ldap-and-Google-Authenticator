@@ -8,6 +8,12 @@ Authenicate users with Ldap server and Google Authenticator
 Download the project:
 git clone https://github.com/IsraelEfrati/Ldap-and-Google-Authenticator.git
 
+## Edit the my_ldap.py
+Set the value of the variable LDAP_IP:
+```
+LDAP_IP = ldap server IP
+```
+
 ## Run the following:		
 ```
 cd Ldap-and-Google-Authenticator
